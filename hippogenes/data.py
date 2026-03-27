@@ -16,9 +16,7 @@ import pandas as pd
 
 _DEFAULT_DATA_DIR = Path.home() / ".hippogenes"
 
-# OSF direct-download URL.  Replace <OSF_FILE_ID> with the real identifier,
-# e.g. https://osf.io/download/abc12/
-_GENE_EXPRESSION_URL = "https://osf.io/download/<OSF_FILE_ID>/"
+_GENE_EXPRESSION_URL = "https://osf.io/download/f6wxm/"
 _GENE_EXPRESSION_FILENAME = "gene_expression.parquet"
 
 
