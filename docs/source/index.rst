@@ -8,7 +8,7 @@ for the hippocampus. It maps gene expression data onto hippocampal surface
 vertices, enabling researchers to explore the spatial transcriptomic landscape
 of the hippocampus directly within their analysis workflows.
  
-.. image:: _static/logo.png
+.. image:: logo.png
    :alt: Hippocampal gene expression map
    :align: center
  
