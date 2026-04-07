@@ -12,8 +12,6 @@ of the hippocampus directly within their analysis workflows.
    :alt: Hippocampal gene expression map
    :align: center
  
-.. note::
- 
    hippogenes is under active development. If you encounter any issues or have
    feature requests, please open an issue on our GitHub repository.
  
