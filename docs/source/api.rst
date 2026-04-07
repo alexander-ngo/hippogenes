@@ -36,31 +36,6 @@ Returns
     ValueError
         If any of the requested gene names are not present in the dataset.
 
-    Examples
-    --------
-    Load the full matrix:
-    >>> df = load_expression()
-
-    Load a single gene:
-    >>> bdnf = load_expression("SCN1A")
-
-    Load several genes without downloading the full matrix:
-    >>> subset = load_expression(["SCN1A", "APOE", "MAPT"])
-
-    Use a project-specific cache directory:
-    >>> df = load_expression(data_dir="./data")
-    """
-    data_dir = _resolve_data_dir(data_dir)
-    local_path = data_dir / _GENE_EXPRESSION_FILENAME
-
-    if force_download or not local_path.exists():
-        _download(
-            url=_GENE_EXPRESSION_URL,
-            dest=local_path,
-        )
-
-    return _read_parquet(local_path, genes=genes)
-
    :returns: A pandas DataFrame of expression values for all genes or a subset when ``genes`` is specified. The vertex ordering 
        matches the hippocampal surface mesh bundled with the atlas.
    :rtype: pandas.DataFrame

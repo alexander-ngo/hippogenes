@@ -1,6 +1,6 @@
 .. hippogenes documentation master file
  
-Welcome to the Hippogenes Toolbox
+Welcome to the HippoGenes Toolbox
 =================================
  
 **HippoGenes** is a Python toolbox providing a vertex-wise gene expression atlas
@@ -8,7 +8,7 @@ for the hippocampus. It maps gene expression data onto hippocampal surface
 vertices, enabling researchers to explore the spatial transcriptomic landscape
 of the hippocampus directly within their analysis workflows.
  
-.. image:: _static/hippogenes_banner.png
+.. image:: _static/logo.png
    :alt: Hippocampal gene expression map
    :align: center
  
