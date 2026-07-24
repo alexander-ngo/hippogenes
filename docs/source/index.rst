@@ -1,57 +1,17 @@
 .. hippogenes documentation master file
  
-Welcome to the HippoGenes Toolbox
-=================================
+.. image:: logo.png
+   :alt: Hippocampal gene expression map
+   :align: center
  
 **HippoGenes** is a Python toolbox providing a vertex-wise gene expression atlas
 for the hippocampus. It maps gene expression data onto hippocampal surface
 vertices, enabling researchers to explore the spatial transcriptomic landscape
 of the hippocampus directly within their analysis workflows.
- 
-.. image:: logo.png
-   :alt: Hippocampal gene expression map
-   :align: center
- 
-   hippogenes is under active development. If you encounter any issues or have
-   feature requests, please open an issue on our GitHub repository.
- 
-----
- 
-Contents
+
+
+Overview
 --------
- 
-.. toctree::
-   :maxdepth: 2
-   :caption: Getting Started
- 
-   installation
-   quickstart
- 
-.. toctree::
-   :maxdepth: 2
-   :caption: User Guide
- 
-   usage
-   tutorials/index
- 
-.. toctree::
-   :maxdepth: 2
-   :caption: API Reference
- 
-   api
- 
-.. toctree::
-   :maxdepth: 1
-   :caption: Project Info
- 
-   changelog
-   contributing
-   license
- 
-----
- 
-Why HippoGenes?
----------------
  
 The hippocampus plays a critical role in memory, spatial navigation, and
 affective processing, yet its transcriptomic organisation along the
@@ -74,17 +34,11 @@ Core development team
 ---------------------
 
 HippoGenes is developed by members of the MICA-lab (https://mica-mni.github.io) and collaborators from around the world:
+
 - **Alexander Ngo**, *Montreal Neurological Institute*
 - **Lang Liu**, *Montreal Neurological Institute*
 - **Ziv Gan-Or**, *Montreal Neurological Institute*
 - **Jordan DeKraker**, *Montreal Neurological Institute*
 - **Boris Bernhardt**, *Montreal Neurological Institute*
- 
-Indices and tables
-------------------
- 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
- 
+
 
