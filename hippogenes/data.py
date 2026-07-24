@@ -16,7 +16,7 @@ import pandas as pd
 
 _DEFAULT_DATA_DIR = Path.home() / ".hippogenes"
 
-_GENE_EXPRESSION_URL = "https://osf.io/download/f6wxm/"
+_GENE_EXPRESSION_URL = "https://osf.io/rh2kj/files/f6wxm/"
 _GENE_EXPRESSION_FILENAME = "gene_expression.parquet"
 
 
@@ -33,7 +33,7 @@ def load_expression(
 ) -> pd.DataFrame:
     """Load the HippoGenes gene expression dataset.
 
-    The full matrix (~2.2 GB) is downloaded from OSF on the first call and
+    The full matrix (~1.1 GB) is downloaded from OSF on the first call and
     cached locally.  Subsequent calls read from the cache.  When ``genes`` is
     specified only those columns are read from disk — much faster than loading
     the entire matrix.
@@ -65,7 +65,7 @@ def load_expression(
     >>> df = load_expression()
 
     Load a single gene:
-    >>> bdnf = load_expression("SCN1A")
+    >>> subset = load_expression("SCN1A")
 
     Load several genes without downloading the full matrix:
     >>> subset = load_expression(["SCN1A", "APOE", "MAPT"])
