@@ -1,6 +1,6 @@
 .. _api:
 
-API Reference
+Reference API
 =============
 
 This page documents all public functions in hippogenes.

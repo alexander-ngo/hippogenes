@@ -34,7 +34,7 @@ Requirements
  
 ``hippogenes`` requires:
  
-- Python 3.9 or later
+- Python 3.8 or later
 - pip
  
 The following packages are installed automatically as dependencies:
@@ -51,3 +51,5 @@ The following packages are installed automatically as dependencies:
      - Reading and writing neuroimaging file formats
    * - ``pandas``
      - Tabular data handling for gene metadata
+   * - ``pyarrows``
+     - Columnar storage format handling
