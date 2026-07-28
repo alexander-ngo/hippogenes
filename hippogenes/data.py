@@ -16,7 +16,7 @@ import pandas as pd
 
 _DEFAULT_DATA_DIR = Path.home() / ".hippogenes"
 
-_GENE_EXPRESSION_URL = "https://osf.io/rh2kj/files/f6wxm/"
+_GENE_EXPRESSION_URL = "https://osf.io/downloadf6wxm/"
 _GENE_EXPRESSION_FILENAME = "gene_expression.parquet"
 
 
