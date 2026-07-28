@@ -3,9 +3,6 @@
 Reference API
 =============
 
-This page documents all public functions in hippogenes.
-
-
 hippogenes.load_expression
 --------------------------
 
@@ -21,7 +18,7 @@ hippogenes.load_expression
    :param force_download: Re-download the file even if a local copy already exists.
    :type force_download: bool
    
-   :returns: expression: A pandas DataFrame containing gene expression values. If
+   :returns expression: A pandas DataFrame containing gene expression values. If
    genes is specified, only the requested genes are returned. The row
    ordering matches the hippocampal surface mesh bundled with the atlas.
    :type expression: pandas.DataFrame
