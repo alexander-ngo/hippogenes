@@ -1,17 +1,14 @@
 .. _installation:
  
-Getting started
-===============
-
 Basic installation
-------------------
+~~~~~~~~~~~~~~~~~~
  
 The recommended way to install hippogenes is via ``pip``::
  
     pip install hippogenes
  
  
- You can also install the latest development version directly from GitHub::
+You can also install the latest development version directly from GitHub::
  
     git clone https://github.com/alexander-ngo/hippogenes.git
     cd hippogenes
@@ -30,7 +27,7 @@ Or from the command line::
  
  
 Requirements
-------------
+~~~~~~~~~~~~
  
 ``hippogenes`` requires:
  
