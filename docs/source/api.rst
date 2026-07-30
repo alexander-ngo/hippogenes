@@ -3,9 +3,6 @@
 Reference API
 ~~~~~~~~~~~~~
 
-hippogenes.load_expression
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. py:function:: hippogenes.load_expression(genes=None, data_dir=None, force_download=False)
 
    :param genes: Official HGNC gene symbol (e.g. ``"BDNF"``, ``"APOE"``). The lookup is case-sensitive.
