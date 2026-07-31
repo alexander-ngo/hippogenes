@@ -47,7 +47,7 @@ HippoGenes is developed by members of the MICA-lab (https://mica-mni.github.io) 
 
 .. toctree::
     :hidden:
-    :maxdepth: 0
+    :maxdepth: 1
     
     Installation <installation>
     Basic Usage <quickstart>
