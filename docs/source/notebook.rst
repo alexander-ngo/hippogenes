@@ -8,7 +8,7 @@ The following tutorials demosntrate the potential utility of HippoGenes to (i) b
 .. toctree::
    :maxdepth: 1
    
-   notebooks/1_Transcriptomic-Gradients
-   notebooks/2_Multimodal-Contextualization
-   notebooks/3_Pathway-Decoding
-   notebooks/4_Disease-Relevance
+   notebooks/1_Transcriptomic-Gradients.ipynb
+   notebooks/2_Multimodal-Contextualization.ipynb
+   notebooks/3_Pathway-Decoding.ipynb
+   notebooks/4_Disease-Relevance.ipynb
