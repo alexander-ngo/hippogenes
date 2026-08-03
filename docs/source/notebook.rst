@@ -3,7 +3,7 @@
 Tutorials
 =========
  
-The following tutorials demosntrate the potential utility of HippoGenes to (i) better understand transcriptional organization, (ii) integrate with multi-modal/scale data, and (iii) data-driven and hypothesis-guided hippocampal interogations.
+The following tutorials demonstrate the potential utility of HippoGenes to (i) better understand transcriptional organization, (ii) integrate with multi-modal/scale data, and (iii) data-driven and hypothesis-guided hippocampal interogations.
 
 .. toctree::
    :maxdepth: 1

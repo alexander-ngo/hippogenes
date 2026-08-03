@@ -7,9 +7,9 @@ This page shows the fastest path from installation to a working gene expression
 map. For more detailed examples, see the :ref:`tutorials`.
 
 Fetch a gene expression map in three lines
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
-::
+.. code-block:: python
 
     import hippogenes as hg
 
@@ -20,10 +20,12 @@ Fetch a gene expression map in three lines
 normalised expression values for each vertex on the hippocampal surface mesh.
 
 Visualise the result
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 You can plot the expression map with any surface-plotting library. Here is a
-minimal example using ``hippomaps``::
+minimal example using ``hippomaps``:
+
+.. code-block:: python
 
     import hippomap as hm
     import hippogenes as hg
@@ -35,17 +37,9 @@ minimal example using ``hippomaps``::
                                               tighten_cwindow=True, embed_nb=True)
 
 What happens on first run?
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 The first time ``load_expression()`` is called, hippogenes downloads the
 pre-computed atlas from our data repository and caches it locally (typically
 in ``~/.hippogenes/``). Subsequent calls use the cached data and return
 almost instantly.
-
-Next steps
-~~~~~~~~~~
-
-- Read the full :doc:`usage` guide to understand all available parameters.
-- Work through the :doc:`tutorials/index` for practical, notebook-style
-  examples.
-- Consult the :doc:`api` reference for complete function signatures.

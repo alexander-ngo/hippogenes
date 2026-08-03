@@ -23,7 +23,7 @@ gene expression data that can be fetched with a single function call and
 immediately integrated into neuroimaging pipelines.
  
 Key features
-~~~~~~~~~~~~
+------------
  
 - **Single-function API** — retrieve vertex-wise expression maps with
   ``load_expression()``.
@@ -32,18 +32,7 @@ Key features
 - **Researcher-friendly** — minimal dependencies, straightforward installation,
   and rich tutorial notebooks.
 
-Core development team
-~~~~~~~~~~~~~~~~~~~~~
-
-HippoGenes is developed by members of the MICA-lab (https://mica-mni.github.io) and collaborators from around the world:
-
-- **Alexander Ngo**, *Montreal Neurological Institute*
-- **Lang Liu**, *Montreal Neurological Institute*
-- **Ziv Gan-Or**, *Montreal Neurological Institute*
-- **Jordan DeKraker**, *Montreal Neurological Institute*
-- **Boris Bernhardt**, *Montreal Neurological Institute*
-
-
+See :doc`installation` to setup **HippoGenes**, :doc:`quickstart` for a complete walkthrough, and :doc:`notebook` for examples.
 
 .. toctree::
     :hidden:

@@ -1,7 +1,7 @@
 .. _api:
 
 Reference API
-~~~~~~~~~~~~~
+=============
 
 .. py:function:: hippogenes.load_expression(genes=None, data_dir=None, force_download=False)
 

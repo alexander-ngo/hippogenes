@@ -1,0 +1,26 @@
+/* Small visual polish on top of the ReadTheDocs theme */
+
+/* Slightly wider content area for tables / code */
+.wy-nav-content {
+    max-width: 900px;
+}
+
+/* Nicer function signatures in the API reference */
+dl.py.function > dt {
+    background: #f0f7ff;
+    border-left: 3px solid #2980B9;
+    padding: 6px 10px;
+    font-size: 90%;
+}
+
+/* Tighter spacing for parameter/return field lists */
+dl.field-list > dt {
+    font-weight: 600;
+}
+
+/* Make inline code stand out a bit more */
+code.literal {
+    background-color: #f3f4f6;
+    border-radius: 3px;
+    padding: 1px 4px;
+}
